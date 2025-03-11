@@ -56,3 +56,22 @@
     .navbar-me a {
         text-decoration: none;
       }
+.carousel img {
+    max-height: 500px;
+    object-fit: cover;
+  }
+
+  .nav-link:hover {
+    color: #00ffcc !important;
+    transition: color 0.3s ease-in-out;
+  }
+
+  @media (max-width: 768px) {
+    .carousel-caption {
+      display: none !important;
+    }
+
+    .btn {
+      width: 100%;
+    }
+  }
