@@ -75,3 +75,10 @@
       width: 100%;
     }
   }
+  .nav-link{
+                transition:(0.3s) color ease-in-out
+            }
+  .nav-link:hover {
+    color: #00ffcc;
+    transition: (scale1.2);
+  }
